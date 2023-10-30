@@ -1,6 +1,5 @@
-package com.practice.springframework;
+package com.practice.springframework.game;
 
-import com.practice.springframework.game.GameRunner;
 import org.springframework.context.annotation.*;
 
 @Configuration
