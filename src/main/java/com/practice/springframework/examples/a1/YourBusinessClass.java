@@ -1,6 +1,5 @@
-package com.practice.springframework.game.examples.a1;
+package com.practice.springframework.examples.a1;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component

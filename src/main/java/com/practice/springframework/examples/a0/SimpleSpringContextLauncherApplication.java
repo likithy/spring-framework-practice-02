@@ -1,4 +1,4 @@
-package com.practice.springframework.game.examples.a0;
+package com.practice.springframework.examples.a0;
 
 import java.util.Arrays;
 import org.springframework.context.annotation.*;
