@@ -4,13 +4,13 @@ import com.practice.springframework.examples.calculations.components.DataService
 import java.util.Arrays;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component
+@Service
 public class BusinessCalculationService {
   private DataService dataService;
 
-  public BusinessCalculationService(@Qualifier("SQLService") DataService dataService) {
+  public BusinessCalculationService(DataService dataService) {
     this.dataService = dataService;
   }
 

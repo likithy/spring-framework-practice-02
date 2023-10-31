@@ -1,9 +1,9 @@
 package com.practice.springframework.examples.calculations.components;
 
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
-@Component
+@Repository
 @Qualifier("SQL Service")
 public class SQLService implements DataService {
   @Override
